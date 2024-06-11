@@ -59,5 +59,3 @@ Experiment project on QMUL dataset
 ```
 
 --------
-
-# wild-face-qmul
