@@ -93,10 +93,7 @@ def save_embedding(
     pack["embeddings_dict"] = embeddings_dict
     pack["misc"] = misc
 
-    # Get the current date
-    current_date = datetime.datetime.now().strftime("%Y-%m-%d")
-
-    file_path = os.path.join(output_path, f"{file_name}_{current_date}.pkl")
+    file_path = os.path.join(output_path, f"{file_name}.pkl")
     with open(file_path, "wb") as f:
         pickle.dump(pack, f)
 
